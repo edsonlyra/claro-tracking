@@ -14,7 +14,7 @@ $(function () {
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
-        var markerImage = 'marker.png';
+        var markerImage = 'marker.svg';
 
         var marker = new google.maps.Marker({
             position: location,
